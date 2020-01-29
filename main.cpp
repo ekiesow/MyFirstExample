@@ -3,9 +3,14 @@
 using std::cin;
 using std::cout;
 
+// say hello and ask for numbers!
 int main()
 {
-    cout<<"Hi, please enter two numbers: ";
+  int num1, num2 = 0;
 
-    return 0;
+  cout<<"Hi, please enter two numbers: ";
+
+  cin >> num1 >> num2;
+
+  return 0;
 }
