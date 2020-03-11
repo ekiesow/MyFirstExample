@@ -9,7 +9,7 @@ int main()
 {
   int num1, num2 = 0;
 
-    int x,y;
+    int x,y,z;
 
     cin >> x >> y;
     cout << x + y << endl;
