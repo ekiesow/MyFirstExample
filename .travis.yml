@@ -5,4 +5,5 @@ install:
         - sudo apt-get install -qq cppcheck
 script:
         - make
-        - cppcheck --quiet --error-exitcode=1
+        - ./main
+        - cppcheck --quiet --error-exitcode=1 .
